@@ -24,10 +24,12 @@
     "build": "lerna run build --ignore @widgets-resources/utils-react-widgets",
     "publish": "ts-node --project ./scripts/tsconfig.json ./scripts/release/Release.ts",
     "release": "lerna run release --ignore @widgets-resources/utils-react-widgets",
-    "version": "ts-node --project ./scripts/tsconfig.json ./scripts/release/BumpVersion.ts"
+    "version": "ts-node --project ./scripts/tsconfig.json ./scripts/release/BumpVersion.ts",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@commitlint/config-lerna-scopes": "^11.0.0",
     "@types/big.js": "^4.0.5",
@@ -53,11 +55,11 @@
     "es-abstract": "^1.17.7",
     "gulp-change": "^1.0.2",
     "gulp-git": "^2.10.1",
-    "husky": "^4.3.0",
+    "husky": "^5.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest-canvas-mock": "^2.3.0",
-    "lerna": "^3.22.1",
-    "lint-staged": "^10.5.0",
+    "lerna": "^5.5.2",
+    "lint-staged": "^11.2.4",
     "mendix-client": "^7.15.8",
     "mime": "^2.4.6",
     "mini-css-extract-plugin": "^1.2.1",
@@ -65,7 +67,7 @@
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "react": "~17.0.1",
-    "react-native": "0.63.3",
+    "react-native": "0.68.0",
     "react-native-testing-library": "^6.0.0",
     "react-test-renderer": "~17.0.1",
     "recursive-copy": "^2.0.11",
@@ -84,5 +86,9 @@
       "@commitlint/config-lerna-scopes",
       "@commitlint/config-conventional"
     ]
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
