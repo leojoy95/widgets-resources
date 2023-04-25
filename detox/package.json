@@ -11,7 +11,9 @@
     "test:ios:debug": "npm run pretest:ios && detox test --configuration ios.simulator --debug-synchronization 1000 ./specs",
     "test:ios:unit": "npm run pretest:ios && detox test --configuration ios.simulator",
     "test:ios:local": "npm run decompress:ios:local && detox test --configuration ios.simulator.local ./specs --debug-synchronization 1000",
-    "test:android": "detox test --configuration android.emulator ./specs"
+    "test:android": "detox test --configuration android.emulator ./specs",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@types/detox": "^14.5.2",
@@ -49,5 +51,9 @@
         }
       }
     }
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
