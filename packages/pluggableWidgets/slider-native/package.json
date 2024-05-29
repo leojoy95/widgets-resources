@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@mendix/pluggable-widgets-tools": ">=8.9.2",
-    "@types/ptomasroos__react-native-multi-slider": "^0.0.1"
+    "@types/ptomasroos__react-native-multi-slider": "^2.2.1"
   }
 }
