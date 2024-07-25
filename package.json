@@ -52,7 +52,7 @@
     "deepmerge": "^4.2.2",
     "es-abstract": "^1.17.7",
     "gulp-change": "^1.0.2",
-    "gulp-git": "^2.10.1",
+    "gulp-git": "^2.10.2",
     "husky": "^4.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest-canvas-mock": "^2.3.0",
