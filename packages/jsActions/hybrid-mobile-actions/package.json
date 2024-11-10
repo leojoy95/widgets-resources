@@ -45,6 +45,6 @@
     "@mendix/pluggable-widgets-tools": ">=8.9.2",
     "@types/cordova": "^0.0.34",
     "@types/cordova-plugin-app-version": "^0.1.35",
-    "npm-watch": "^0.6.0"
+    "npm-watch": "^0.7.0"
   }
 }
