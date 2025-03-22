@@ -115,7 +115,7 @@
     "@mendix/generator-widget": ">=8.9.0",
     "async-mutex": "^0.2.4",
     "cross-env": "^7.0.2",
-    "shx": "^0.3.3",
+    "shx": "^0.4.0",
     "tree-kill": "^1.2.2",
     "wdio-image-comparison-service": "^1.14.0",
     "yeoman-test": "^3.0.0"
