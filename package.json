@@ -57,7 +57,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest-canvas-mock": "^2.3.0",
     "lerna": "^3.22.1",
-    "lint-staged": "^10.5.0",
+    "lint-staged": "^16.0.0",
     "mendix-client": "^7.15.8",
     "mime": "^2.4.6",
     "mini-css-extract-plugin": "^1.2.1",
