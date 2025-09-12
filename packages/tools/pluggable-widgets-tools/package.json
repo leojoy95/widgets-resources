@@ -79,7 +79,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jasmine": "^3.6.2",
     "jasmine-core": "^3.6.0",
-    "jest": "^26.6.1",
+    "jest": "^27.0.0",
     "jest-junit": "^12.0.0",
     "jest-react-hooks-shallow": "^1.4.1",
     "mendix": "^8.15.7685",
@@ -118,7 +118,7 @@
     "shx": "^0.3.3",
     "tree-kill": "^1.2.2",
     "wdio-image-comparison-service": "^1.14.0",
-    "yeoman-test": "^3.0.0"
+    "yeoman-test": "^5.0.0"
   },
   "scripts": {
     "prepare": "shx rm -rf dist && tsc",
