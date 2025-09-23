@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "@mendix/pluggable-widgets-tools": ">=8.9.2",
-    "@types/react-native-material-menu": "^1.0.0"
+    "@types/react-native-material-menu": "^2.0.0"
   }
 }
